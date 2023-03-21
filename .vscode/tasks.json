@@ -1,0 +1,1177 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Udemy1Tut2_Obstacle Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Win64",
+				"Debug",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Win64",
+				"Debug",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Udemy1Tut2_Obstacle Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Win64",
+				"Debug",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Win64",
+				"DebugGame",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Win64",
+				"DebugGame",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Udemy1Tut2_Obstacle Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Win64",
+				"DebugGame",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Win64",
+				"Development",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Win64",
+				"Development",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Udemy1Tut2_Obstacle Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Win64",
+				"Development",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Win64",
+				"Test",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Win64",
+				"Test",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Udemy1Tut2_Obstacle Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Win64",
+				"Test",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Win64",
+				"Shipping",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Win64",
+				"Shipping",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Udemy1Tut2_Obstacle Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Win64",
+				"Shipping",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Android",
+				"Debug",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Debug Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-Project=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"Udemy1Tut2_ObstacleEditor Win64 Development Build",
+				"Udemy1Tut2_Obstacle Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Debug Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-Project=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"Udemy1Tut2_ObstacleEditor Win64 Development Build",
+				"Udemy1Tut2_Obstacle Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Debug Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-Project=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"Udemy1Tut2_Obstacle Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Android",
+				"Debug",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Udemy1Tut2_Obstacle Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Android",
+				"Debug",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Android",
+				"DebugGame",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android DebugGame Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-Project=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"Udemy1Tut2_ObstacleEditor Win64 Development Build",
+				"Udemy1Tut2_Obstacle Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android DebugGame Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-Project=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"Udemy1Tut2_ObstacleEditor Win64 Development Build",
+				"Udemy1Tut2_Obstacle Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android DebugGame Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-Project=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"Udemy1Tut2_Obstacle Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Android",
+				"DebugGame",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Udemy1Tut2_Obstacle Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Android",
+				"DebugGame",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Android",
+				"Development",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Development Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-Project=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"Udemy1Tut2_ObstacleEditor Win64 Development Build",
+				"Udemy1Tut2_Obstacle Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Development Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-Project=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"Udemy1Tut2_ObstacleEditor Win64 Development Build",
+				"Udemy1Tut2_Obstacle Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Development Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-Project=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"Udemy1Tut2_Obstacle Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Android",
+				"Development",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Udemy1Tut2_Obstacle Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Android",
+				"Development",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Android",
+				"Test",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Test Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-Project=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"Udemy1Tut2_ObstacleEditor Win64 Development Build",
+				"Udemy1Tut2_Obstacle Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Test Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-Project=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"Udemy1Tut2_ObstacleEditor Win64 Development Build",
+				"Udemy1Tut2_Obstacle Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Test Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-Project=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"Udemy1Tut2_Obstacle Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Android",
+				"Test",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Udemy1Tut2_Obstacle Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Android",
+				"Test",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Android",
+				"Shipping",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Shipping Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-Project=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"Udemy1Tut2_ObstacleEditor Win64 Development Build",
+				"Udemy1Tut2_Obstacle Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Shipping Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-Project=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"Udemy1Tut2_ObstacleEditor Win64 Development Build",
+				"Udemy1Tut2_Obstacle Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Shipping Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-Project=D:/UE/Projects/Udemy1Tut2_Obstacle/Udemy1Tut2_Obstacle.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"Udemy1Tut2_Obstacle Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Android",
+				"Shipping",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Udemy1Tut2_Obstacle Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_Obstacle Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Udemy1Tut2_Obstacle",
+				"Android",
+				"Shipping",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_ObstacleEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_ObstacleEditor",
+				"Win64",
+				"Debug",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_ObstacleEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_ObstacleEditor",
+				"Win64",
+				"Debug",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Udemy1Tut2_ObstacleEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_ObstacleEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Udemy1Tut2_ObstacleEditor",
+				"Win64",
+				"Debug",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_ObstacleEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_ObstacleEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_ObstacleEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_ObstacleEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Udemy1Tut2_ObstacleEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_ObstacleEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Udemy1Tut2_ObstacleEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_ObstacleEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_ObstacleEditor",
+				"Win64",
+				"Development",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_ObstacleEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Udemy1Tut2_ObstacleEditor",
+				"Win64",
+				"Development",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Udemy1Tut2_ObstacleEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		},
+		{
+			"label": "Udemy1Tut2_ObstacleEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Udemy1Tut2_ObstacleEditor",
+				"Win64",
+				"Development",
+				"D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE\\UE_5.1"
+			}
+		}
+	]
+}

@@ -1,0 +1,42 @@
+[
+	{
+		"file": "D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Source\\Udemy1Tut2_Obstacle\\MovingPlatform.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\.vscode\\compileCommands_Default\\Udemy1Tut2_Obstacle.249.rsp"
+		],
+		"directory": "D:\\UE\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Source\\Udemy1Tut2_Obstacle\\MovingPlatform.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\.vscode\\compileCommands_Default\\Udemy1Tut2_Obstacle.249.rsp"
+		],
+		"directory": "D:\\UE\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Source\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\.vscode\\compileCommands_Default\\Udemy1Tut2_Obstacle.249.rsp"
+		],
+		"directory": "D:\\UE\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Source\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\.vscode\\compileCommands_Default\\Udemy1Tut2_Obstacle.249.rsp"
+		],
+		"directory": "D:\\UE\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\Source\\Udemy1Tut2_Obstacle\\Udemy1Tut2_Obstacle.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\UE\\Projects\\Udemy1Tut2_Obstacle\\.vscode\\compileCommands_Default\\Udemy1Tut2_Obstacle.249.rsp"
+		],
+		"directory": "D:\\UE\\UE_5.1\\Engine\\Source"
+	}
+]
